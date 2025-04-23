@@ -57,6 +57,9 @@ public class Main {
         String json = sistem.genereazaJSON();
         adaptor.trimiteDateJSON(json);
 
+        // Crește modularitatea și reutilizabilitatea aplicației, separă clar pasii
+        // și este ideal în scenarii frecvente precum comunicarea între API-uri care folosesc formate diferite
+
 
         //
         System.out.println("-------------------------");
